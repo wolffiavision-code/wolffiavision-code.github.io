@@ -1,0 +1,33 @@
+{
+  "run": "run_20261014_170327",
+  "source": "55.jpg",
+  "object_id": "55_det000593_vegetative",
+  "class_name": "vegetative",
+  "confidence": 0.9310277104377748,
+  "bbox": [
+    610,
+    539,
+    712,
+    669
+  ],
+  "original_size": [
+    1108,
+    1477
+  ],
+  "features": {
+    "mask_area_px": 10607.0,
+    "mask_ellipse_major_px": 136.82090759277344,
+    "mask_ellipse_minor_px": 97.80513763427734,
+    "mask_ellipse_aspect_ratio": 1.3989132974219383,
+    "mask_circularity": 0.7649734581588221
+  },
+  "rotation_degrees": 79.47288513183594,
+  "sha256": {
+    "original.jpg": "7c946e983d21d4f96d95cbeab7657c6410b48520783a6fb983585fcf238873ce",
+    "crop.jpg": "608d05e9e26e1d28123382fb01c6543571b32b1ed11cb9f00b79dcb60b24d43d",
+    "overlay.jpg": "fc79e793d9904ee6fcc3b7e9d59a73c70cdbee8d25087128fb1d92322e783369",
+    "mask.png": "164164b722fea4522c9527398cb287d9d2a08e44d0970f5b3d1fcbbbe935a01b",
+    "normalized.png": "38150e2197de981daaca7645d24547b31c763c26594e18e13123421778d849d8"
+  },
+  "note": "Saved workflow example, not a version 1.0.0 accuracy benchmark. Features measured after orientation normalization. Pixel units; not calibrated physical size."
+}

@@ -1,0 +1,47 @@
+/* Botanical editorial: strong hierarchy, quiet diagrams, varied section scale. */
+:root{--paper:#faf9f3;--ink:#153b30;--green:#1c7257;--muted:#566f64;--line:#cbd7ca}
+body{font-family:'Yu Gothic UI','Segoe UI',sans-serif;font-size:16px}
+header{background:#faf9f3f5;backdrop-filter:blur(12px)}
+header .brand{letter-spacing:-.04em}.brand-sub{letter-spacing:.25em}
+nav{gap:19px}nav a{font-size:12px;font-weight:600}
+.eyebrow{font-family:'Consolas',monospace;font-size:11px;letter-spacing:.18em;color:#456650}
+h1{font-family:'Yu Mincho','Georgia',serif;font-size:clamp(42px,5vw,72px);font-weight:600;line-height:1.35;letter-spacing:-.055em}
+h1 em,h2 em{font-style:normal;color:#567849}
+h2{font-size:clamp(29px,3.6vw,49px);line-height:1.4;letter-spacing:-.04em}
+.hero{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(290px,.8fr);gap:7%;padding-top:80px;padding-bottom:80px;max-width:1350px}
+.hero-copy{max-width:710px}.lead{font-size:16px;line-height:2}.actions{gap:22px}
+.primary{border-radius:30px;padding:16px 25px;transition:transform .2s}.primary:hover{transform:translateY(-2px)}
+.subtle{font:11px 'Consolas',monospace;margin-top:26px;letter-spacing:.04em}
+.workflow-panel{background:#eaf0df;border:1px solid #c8d6ba;padding:32px;border-radius:80px 8px 8px 8px;box-shadow:12px 14px 0 #f0eee2}
+.workflow-panel>.eyebrow{text-align:right;margin-bottom:22px}
+.workflow-panel ol{list-style:none;padding:0;margin:0}.workflow-panel li{display:flex;align-items:center;gap:18px;border-bottom:1px solid #c0cdb4;padding:16px 0}
+.workflow-panel li span{font:italic 26px Georgia,serif;color:#6b8856}.workflow-panel li strong{font-size:18px;font-weight:600}
+.workflow-specimens{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:28px}.workflow-specimens figure{margin:0;min-width:0}
+.workflow-specimens img{width:100%;height:90px;object-fit:contain;background:#fff9;border:1px solid #d3ddc8;border-radius:7px;padding:6px}
+.workflow-specimens figcaption{font:9px 'Consolas',monospace;padding:8px 0;text-align:center;letter-spacing:.08em}
+.specimen-caption{font-size:10px;margin:6px 0 0;text-align:right;color:#5f7457}
+.intro{padding-top:90px;padding-bottom:90px}
+#workflow .steps{margin-top:40px;gap:0;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.steps article{border:0;padding:28px 24px;background:#f0f3e8;border-right:1px solid var(--line)}
+.steps article:nth-child(2){background:#e7efdf}.steps article:nth-child(3){background:#e0ede5}.steps article:nth-child(4){background:#dae7df;border-right:0}
+.step-number{font:italic 42px Georgia,serif;color:#6e8c63}.steps h3{font-size:21px;line-height:1.5}.steps p{font-size:14px}
+.flow{margin-bottom:0}.flow li{background:transparent;border:0;padding:5px 9px;font-size:12px}
+#example{max-width:1300px}#example>h2{max-width:850px;font-family:'Yu Mincho',Georgia,serif;font-size:clamp(27px,3vw,42px)}
+.example-grid{grid-template-columns:1.25fr 1fr 1fr 1fr;gap:12px}.example-grid figure{border-radius:4px;padding:15px;border-top:3px solid #7c9a61}
+.example-image{height:290px;border-radius:2px}.example-grid h3{font-size:15px}.example-grid figcaption{font-size:12px}
+.measurement{background:#183e31;color:#f6f8e9;border:0;border-radius:8px;padding:30px}.measurement h3{font-size:23px;margin-top:0}.measurement>p{font-size:13px;color:#cfdece}
+.measurement dl{gap:22px}.measurement dt{color:#d1dfc6;font-size:12px}.measurement dd{font:32px Georgia,serif;margin-top:10px}.measurement .fine{font-size:12px}
+.feature-tools{max-width:none;background:#edf2e8;padding-left:max(30px,calc((100vw - 1170px)/2));padding-right:max(30px,calc((100vw - 1170px)/2))}
+.feature-tools h2{font-size:38px}.feature-tools .hero-tools{gap:26px}.tool-preview{padding:22px;border-radius:12px;box-shadow:0 8px 22px #143d2610}.tool-bar strong{font-size:22px}.tool-bar span{font-size:12px}
+.tool-preview>p{font-size:14px;line-height:1.85;margin-top:20px}.annotation-layout{height:350px}.annotation-list{font-size:11px}.metric-pills span,.metric-pills b{font-size:11px;padding:5px 9px}.chart-key{font-size:12px}
+.screens{background:#faf9f3}.screens>p{font-size:14px;max-width:800px}.gallery{grid-template-columns:1fr 1fr;gap:22px}.gallery-card:first-child{grid-column:1/-1}.gallery-card{border-radius:8px;box-shadow:0 10px 24px #143d2610}.gallery-card figcaption{font-size:12px}
+.chart-feature{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:start;background:#f3efdf;max-width:none;padding-left:max(30px,calc((100vw - 1170px)/2));padding-right:max(30px,calc((100vw - 1170px)/2))}
+.chart-feature>div>p{font-size:15px}.chart-options article{position:relative;border-bottom:1px solid #bfc9b0;padding:15px 0 20px 55px}.chart-options article>span{position:absolute;left:0;top:23px;font:italic 30px Georgia,serif;color:#6d8661}.chart-options h3{font-size:24px;margin-top:0}.chart-options p{font-size:13px;color:#5b6c55}
+.scope{gap:15px}.scope article{padding:25px;border-radius:4px}.scope article h3{font-size:19px}.scope article p{font-size:14px!important}
+.yaml{max-width:650px;background:#173d31;color:#dff0d9;border-radius:5px;font-size:15px}
+.download{background:#143e30;gap:70px}.download h2{font:clamp(35px,4vw,58px) 'Yu Mincho',Georgia,serif}.download-card{box-shadow:14px 14px 0 #315643;border-radius:5px}.download-card h3{font-size:27px}.download-card .text-link{display:inline-block;margin:8px 0}.download-card .text-link[hidden]{display:none}
+#about{background:#edf2e8;max-width:none;padding-left:max(30px,calc((100vw - 1170px)/2));padding-right:max(30px,calc((100vw - 1170px)/2))}#about h2{font-size:34px}#about h3{margin-top:35px}#about ul{display:grid;grid-template-columns:1fr 1fr;gap:20px;list-style:none;padding:0}#about li{padding:22px;background:#fafbf6;border:1px solid #ccd9c4}#about li a{display:block;font:24px Georgia,serif;margin-bottom:8px}
+@media(max-width:1050px){.hero{gap:4%;grid-template-columns:1.2fr .8fr;padding-left:5%;padding-right:5%}.workflow-panel{padding:24px}.steps article{padding:22px 17px}.example-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.chart-feature{gap:35px}.feature-tools h2{font-size:32px}}
+@media(max-width:800px){.hero{grid-template-columns:1fr}.workflow-panel{max-width:540px;width:100%;margin:auto}.hero-copy{max-width:none}.gallery{grid-template-columns:1fr}.gallery-card:first-child{grid-column:auto}.chart-feature{grid-template-columns:1fr}.steps article{border-bottom:1px solid var(--line)}.measurement dd{font-size:26px}#about ul{grid-template-columns:1fr}.feature-tools .hero-tools{grid-template-columns:1fr}.intro{padding-top:55px;padding-bottom:55px}h1{font-size:clamp(36px,7vw,55px)}}
+@media(max-width:480px){.example-grid{grid-template-columns:1fr}.workflow-panel{padding:25px}.workflow-specimens img{height:80px}.measurement dl{grid-template-columns:1fr 1fr}.tool-preview{padding:15px}.annotation-list{font-size:10px}.chart-feature{padding-left:6%;padding-right:6%}.workflow-panel li strong{font-size:17px}.steps{grid-template-columns:1fr}.download{padding-bottom:70px}.download-card{padding:24px}.feature-tools h2{font-size:28px}}
+@media(prefers-reduced-motion:reduce){.primary{transition:none}.primary:hover{transform:none}}

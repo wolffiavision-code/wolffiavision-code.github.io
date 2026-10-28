@@ -1,0 +1,7 @@
+﻿Windows protection warnings
+This 1.0.0 build is unsigned. SmartScreen may show "Windows protected your PC". This warning alone neither proves infection nor guarantees safety.
+Verify the official download source, filename and published SHA-256. A matching hash verifies integrity, not harmlessness. Scan the download. Only if you trust the source and choose to proceed, use "More info" then "Run anyway".
+Do not run files with a mismatched hash, unknown origin or a detected threat. If organization policy or Smart App Control blocks execution, contact your administrator. Do not disable protection or add antivirus exclusions.
+Publisher-side options include trusted code signing or Microsoft Store distribution. Signing does not guarantee immediate removal of reputation warnings. This package has not been signed.
+Analysis and classification are assistive. Accuracy and applicability to other duckweed species are not guaranteed. Keep original data and review results. Do not load untrusted .pt checkpoints.
+Reference: https://learn.microsoft.com/en-us/windows/apps/package-and-deploy/smartscreen-reputation

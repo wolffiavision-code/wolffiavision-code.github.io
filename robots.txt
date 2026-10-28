@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://wolffiavision-code.github.io/wolffia-vision-studio/sitemap.xml
