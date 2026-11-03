@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://wolffiavision-code.github.io/wolffia-vision-studio/</loc></url>
-  <url><loc>https://wolffiavision-code.github.io/wolffia-vision-studio/en/</loc></url>
+  <url>
+    <loc>https://wolffiavision-code.github.io/</loc>
+  </url>
+  <url>
+    <loc>https://wolffiavision-code.github.io/en/</loc>
+  </url>
 </urlset>
