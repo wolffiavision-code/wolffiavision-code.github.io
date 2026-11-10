@@ -1,13 +1,6 @@
 {
   "schema": 1,
-  "version": "1.0.1",
-  "build": 2026111101,
-  "patches": [
-    {
-      "base_sha256": "63a19bdae56d2f65a38913e937f478b5be66d3e4c4d23ab8904f94764b69de71",
-      "sha256": "01fda1bdfd93e86af01aa5471f52b0d6a10285b583ce979ee21e542106c4fca9",
-      "size_bytes": 79608691,
-      "url": "https://github.com/wolffiavision-code/wolffiavision-code.github.io/releases/download/version1.0.1/WolffiaVisionStudio-1.0.1-Build2026111101-Update.exe"
-    }
-  ]
+  "version": "1.0.0",
+  "build": 2026111102,
+  "patches": []
 }
