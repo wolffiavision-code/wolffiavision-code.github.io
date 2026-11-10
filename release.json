@@ -1,10 +1,11 @@
 {
   "version": "1.0.0",
   "published": true,
-  "download_url": "https://github.com/wolffiavision-code/wolffiavision-code.github.io/releases/download/version1.0.0/WolffiaVisionStudio-1.0.0-Windows-x64-Setup.exe",
-  "source_url": "https://github.com/wolffiavision-code/wolffiavision-code.github.io/releases/download/version1.0.0/WolffiaVisionStudio-1.0.0-Source.zip",
-  "size_bytes": 2090836227,
-  "sha256": "B7F55686EE6EAD856C94B89298F759634C063FE0E935CB91401B4FC488AFF1A4",
-  "verification": "Developer-PC frozen and installer-extracted EXE self-tests passed, including three-epoch CUDA training, checkpoint saving, test predictions, all three segmentation checkpoints, and HEIF decoding. Installer registration was not modified. Unsigned; independent clean-PC testing remains pending.",
-  "build_date": "2026-10-28"
+  "download_url": "https://github.com/wolffiavision-code/wolffiavision-code.github.io/releases/download/version1.0.0/WolffiaVisionStudio-1.0.0-Build2026111001-Windows-x64-Setup.exe",
+  "source_url": "https://github.com/wolffiavision-code/wolffiavision-code.github.io/releases/download/version1.0.0/WolffiaVisionStudio-1.0.0-Build2026111001-Source.zip",
+  "size_bytes": 2091645089,
+  "sha256": "3575535dbf2faa778e62cfa9dea07a3bce6b2a1974d2702c3008bfbd8b50355a",
+  "verification": "Local build: frozen self-test, full installer payload match, CPU four-image inference, and isolated patch application passed. Unsigned. Publish these URLs only after uploading the assets.",
+  "build_date": "2026-11-10",
+  "build": 2026111001
 }

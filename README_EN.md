@@ -3,7 +3,7 @@
 [日本語](README.md) · [License](LICENSE) · [License guide](LICENSE_EN.md)
 
 A Windows desktop workflow for duckweed image annotation, dataset preparation, fine-tuning, held-out testing, object detection, masks, orientation alignment and feature measurement. Other duckweed species require appropriate annotations and independent evaluation.
-By Kento Kuwata / wolffia.vision@gmail.com
+By Kento Kuwata（鍬田 健人） / wolffia.vision@gmail.com
 
 ## Install
 
@@ -51,3 +51,7 @@ Crop margin defaults to 0%. For a checkpoint inside weights, test output default
 
 [Dataset form setup](FORM_SETUP_EN.md). The responder URL is configured in the application and website; the owner must verify publication, response collection and notifications in Google Forms. See the bundled verification record for tested scope. Independent clean-PC testing, all Windows/GPU combinations, elimination of protection warnings and downloading 1.0.0 from the public site remain unverified. Models and images have separate redistribution terms.
 Corresponding source and third-party license notices are included in the executable distribution.
+
+## Patch updates
+
+See Downloads on the official website for compatible patches. Verify the listed SHA-256 before running a full or patch installer.

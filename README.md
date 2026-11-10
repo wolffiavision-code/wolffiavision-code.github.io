@@ -3,7 +3,7 @@
 [English](README_EN.md) · [ライセンス](LICENSE) · [日本語のライセンス案内](LICENSE_JA.md)
 
 ウキクサ画像のアノテーション、前処理、追加学習、テスト、YOLO検出、個体領域の抽出、向き補正、特徴量計測をまとめたWindowsアプリです。他のウキクサ種では専用の教師データと評価が必要です。
-開発者：Kento Kuwata / wolffia.vision@gmail.com
+開発者：Kento Kuwata（鍬田 健人） / wolffia.vision@gmail.com
 
 ## 入手と起動
 
@@ -62,3 +62,7 @@ default_models/
 
 同梱ソースと検証記録を参照してください。別のクリーンPC、すべてのWindows/GPU、SmartScreenの警告解消、公開先からの1.0.0ダウンロードは未確認です。モデル・画像の配布条件はソフトウェアライセンスとは別です。
 EXEにsource-code.zip、第三者ライセンス、対応する設定を同梱しています。
+
+## 差分更新
+
+公式サイトのダウンロード欄から対応する差分を確認できます。フル版と差分版は、掲載されたSHA-256を照合してから実行してください。
