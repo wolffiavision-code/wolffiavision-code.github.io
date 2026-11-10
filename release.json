@@ -1,11 +1,11 @@
 {
   "version": "1.0.0",
+  "build": 2026111102,
   "published": true,
-  "download_url": "https://github.com/wolffiavision-code/wolffiavision-code.github.io/releases/download/version1.0.0/WolffiaVisionStudio-1.0.0-Build2026111001-Windows-x64-Setup.exe",
-  "source_url": "https://github.com/wolffiavision-code/wolffiavision-code.github.io/releases/download/version1.0.0/WolffiaVisionStudio-1.0.0-Build2026111001-Source.zip",
-  "size_bytes": 2091645089,
-  "sha256": "3575535dbf2faa778e62cfa9dea07a3bce6b2a1974d2702c3008bfbd8b50355a",
-  "verification": "Local build: frozen self-test, full installer payload match, CPU four-image inference, and isolated patch application passed. Unsigned. Publish these URLs only after uploading the assets.",
-  "build_date": "2026-11-10",
-  "build": 2026111001
+  "download_url": "https://github.com/wolffiavision-code/wolffiavision-code.github.io/releases/download/version1.0.0-build2026111102/WolffiaVisionStudio-1.0.0-Build2026111102-Windows-x64-Setup.exe",
+  "source_url": "https://github.com/wolffiavision-code/wolffiavision-code.github.io/releases/download/version1.0.0-build2026111102/WolffiaVisionStudio-1.0.0-Build2026111102-Source.zip",
+  "size_bytes": 2091610221,
+  "sha256": "f455bda50135af771c07a44b7768eae0549cbcea6722e27a0be79157c1b76992",
+  "build_date": "2026-11-11",
+  "verification": "Local source tests and installer-extracted self-test passed. Unsigned."
 }
