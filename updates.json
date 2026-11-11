@@ -1,19 +1,25 @@
 {
   "schema": 1,
   "version": "1.0.1",
-  "build": 2026111104,
+  "build": 2026111105,
   "patches": [
     {
       "base_sha256": "7ea6c73bee86c1ef6d6695a6eebdeaefc450c8f83fda96b260904bed4bb41567",
-      "sha256": "b7cd5325bae120481bf3d1266dd738e9428456196ee8eebcd0b06b7236e0902d",
-      "size_bytes": 79657878,
-      "url": "https://github.com/wolffiavision-code/wolffiavision-code.github.io/releases/download/version1.0.1-build2026111103/WolffiaVisionStudio-1.0.1-Build2026111104-Update.exe"
+      "sha256": "8e6cd9800fb588c5cc414bb5918a28eba881656ce282aaa8ccfd8e44209520ca",
+      "size_bytes": 79658823,
+      "url": "https://github.com/wolffiavision-code/wolffiavision-code.github.io/releases/download/version1.0.1-build2026111103/WolffiaVisionStudio-1.0.1-Build2026111105-Update.exe"
     },
     {
       "base_sha256": "a7cb2d75acf0486b04cf3a603c1e0f1ecca7f64589d11f952cafef17a34a9e36",
-      "sha256": "b7cd5325bae120481bf3d1266dd738e9428456196ee8eebcd0b06b7236e0902d",
-      "size_bytes": 79657878,
-      "url": "https://github.com/wolffiavision-code/wolffiavision-code.github.io/releases/download/version1.0.1-build2026111103/WolffiaVisionStudio-1.0.1-Build2026111104-Update.exe"
+      "sha256": "8e6cd9800fb588c5cc414bb5918a28eba881656ce282aaa8ccfd8e44209520ca",
+      "size_bytes": 79658823,
+      "url": "https://github.com/wolffiavision-code/wolffiavision-code.github.io/releases/download/version1.0.1-build2026111103/WolffiaVisionStudio-1.0.1-Build2026111105-Update.exe"
+    },
+    {
+      "base_sha256": "84ffcd58604e4893d6342ea966c05272d56c45bec565b98d9431d2b20b23ad17",
+      "sha256": "8e6cd9800fb588c5cc414bb5918a28eba881656ce282aaa8ccfd8e44209520ca",
+      "size_bytes": 79658823,
+      "url": "https://github.com/wolffiavision-code/wolffiavision-code.github.io/releases/download/version1.0.1-build2026111103/WolffiaVisionStudio-1.0.1-Build2026111105-Update.exe"
     }
   ]
 }
